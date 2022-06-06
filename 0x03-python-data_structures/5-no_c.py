@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def no_c(my_string):
-    zebby = [n for n in my_string if n != 'c' and n != 'C']
-    return ("".join(zebby))
+    my_string = my_string.translate({ord(i): None for i in 'Cc'})
+    return (my_string)
