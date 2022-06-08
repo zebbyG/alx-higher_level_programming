@@ -1,6 +1,6 @@
+#!/usr/bin/python3
 def uniq_add(my_list=[]):
-    zebby_list = []
-    for n in my_list:
-        if n not in zebby_list:
-            zebby_list.append(n)
-        return (zebby_list)
+    ret = []
+    for z in set(my_list):
+        ret += z
+    return (ret)
