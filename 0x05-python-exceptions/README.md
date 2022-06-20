@@ -159,4 +159,4 @@ About:
   - The python script will be launched using the `-u` option (Force `stdout` to be unbuffered).
   - It is <strong> strongly </strong> advised to either use `setbuf(stdout, NULL);` or `fflush(stdout)` in your C functions IF you choose to use `printf`. The reason to that is that Python `s` print `and` `libC`s `printf` don’t share the same buffer, and the output can appear disordered.
 
-<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x05-python-exceptions">ZebbyG</a>
+<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x05-python-exceptions">AUTHOR ZebbyG</a>
