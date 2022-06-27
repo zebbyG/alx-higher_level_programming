@@ -49,9 +49,12 @@ class Rectangle:
     def __str__(self):
         if self.__width == 0 or self.__height == 0:
             return ''
-        for z in range(self.height - 1):
-            print(str(self.print_symbol) * self.__width)
-        return str(self.print_symbol * self.__width)
+        newline = ''
+        for z in range(self.height):
+            newline += (str(self.print_symbol) * self.__width)
+            if z != self.__height - 1:
+                newline += "\n"
+        return newline
 
     def __repr__(self):
         return "Rectangle({}, {})".format(self.__width, self.__height)
@@ -75,4 +78,4 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        return cls(size, size)
+        return Rectangle(size, size)
