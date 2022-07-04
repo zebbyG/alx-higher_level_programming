@@ -1,0 +1,86 @@
+=================================================
+Testing class method that validates a sorted list
+=================================================
+
+Importing file
+==============
+    >>> MyList = __import__('1-my_list').MyList
+    >>> my_list = MyList()
+
+Class method
+============
+Public instance method that prints a sorted list.
+
+Class method
+============
+
+    #List positive int
+    >>> my_list = MyList()
+    >>> my_list.append(1)
+    >>> my_list.append(4)
+    >>> my_list.append(2)
+    >>> my_list.append(3)
+    >>> my_list.append(5)
+    >>> my_list.print_sorted()
+    [1, 2, 3, 4, 5]
+    >>> print(my_list)
+    [1, 4, 2, 3, 5]
+
+    #List negative int
+    >>> my_list_1 = MyList()
+    >>> my_list_1.append(-1)
+    >>> my_list_1.append(-4)
+    >>> my_list_1.append(-2)
+    >>> my_list_1.append(-3)
+    >>> my_list_1.append(-5)
+    >>> my_list_1.print_sorted()
+    [-5, -4, -3, -2, -1]
+    >>> print(my_list_1)
+    [-1, -4, -2, -3, -5]
+
+    #List with 0
+    >>> my_list_2 = MyList()
+    >>> my_list_2.append(0)
+    >>> my_list_2.append(0)
+    >>> my_list_2.append(0)
+    >>> my_list_2.print_sorted()
+    [0, 0, 0]
+    >>> print(my_list_2)
+    [0, 0, 0]
+
+    #List with positive and negative
+    >>> my_list_3 = MyList()
+    >>> my_list_3.append(0)
+    >>> my_list_3.append(5)
+    >>> my_list_3.append(-10)
+    >>> my_list_3.print_sorted()
+    [-10, 0, 5]
+    >>> print(my_list_3)
+    [0, 5, -10]
+
+    #Empty list
+    >>> my_list_4 = MyList()
+    >>> my_list_4.print_sorted()
+    []
+    >>> print(my_list_4)
+    []
+
+    #Original list not changed
+    >>> my_list_5 = MyList()
+    >>> my_list_5.append(0)
+    >>> my_list_5.append(5)
+    >>> my_list_5.append(-10)
+    >>> my_list_5.print_sorted()
+    [-10, 0, 5]
+    >>> print(my_list_5)
+    [0, 5, -10]
+
+    #List with positive and negative
+    >>> my_list_6 = MyList()
+    >>> my_list_6.append(1)
+    >>> my_list_6.append(2)
+    >>> my_list_6.append(3)
+    >>> my_list_6.print_sorted()
+    [1, 2, 3]
+    >>> print(my_list_6)
+    [1, 2, 3]
