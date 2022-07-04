@@ -21,4 +21,6 @@ Python programming🙂
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x09-python-everything_is_object">0x09-python-everything_is_object</a>
 
+<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x0A-python-inheritance">0x0A. Python - Inheritance</a>
+
 <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
