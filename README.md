@@ -1,5 +1,6 @@
-# alx-higher_level_programming
-Python programming🙂
+#### <strong><em>alx-higher_level_programming</em></strong>
+
+Python programming🐍🙂🐍😎
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x00-python-hello_world">0x00-python-hello_world</a>
 
