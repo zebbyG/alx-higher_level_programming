@@ -1,27 +1,24 @@
 #!/usr/bin/python3
-
-
-"""
-Creating a class
+"""BaseGeometry
 """
 
 
 class BaseGeometry:
-    """
-    created  a class BaseGeometry
+    """Contains functions area(), integer_validator()
     """
 
     def area(self):
+        """Function not implemented yet
         """
-        public instance method for class BaseGeometry
-        """
+
         raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
+        """Function that validates `value`
         """
-        public instance method to validate value
-        """
+
         if type(value) != int:
-            raise TypeError(f"{name} must be an integer")
-        elif value <= 0:
-            raise ValueError(f"{name} must be greater than 0")
+            raise TypeError(name + " must be an integer")
+
+        if value <= 0:
+            raise ValueError(name + " must be greater than 0")
