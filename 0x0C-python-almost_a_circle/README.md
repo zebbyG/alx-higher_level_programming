@@ -207,5 +207,4 @@ Update the class `Base` by adding the static method `def draw(list_rectangles, l
 - Logout and restart the vm with `vagrant up --provision`.
 - Test with `xeyes`. If Xquartz is installed on the Mac OS it should open in an Xquartz window.
 
-
 <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
