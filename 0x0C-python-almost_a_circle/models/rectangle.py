@@ -77,6 +77,7 @@ class Rectangle(Base):
         self.__y = y
 
     def area(self):
+        """returns the area of the Rectangle"""
         return self.__width * self.__height
 
     def display(self):
@@ -91,3 +92,21 @@ class Rectangle(Base):
     def __str__(self):
         """method to return the Rectangle"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y, self.__width, self.__height)
+
+    def update(self, *args, **kwargs):
+        if len(args) != 0:
+            if len(args) == 1:
+                self.id = args[0]
+            if len(args) == 2:
+                self.width = args[1]
+            if len(args) == 3:
+                self.height = args[2]
+            if len(args) == 4:
+                self.x = args[3]
+            if len(args) == 5:
+                self.y = args[4]
+
+        if len(kwargs) != 0:
+            if len(kwargs) == 1:
+                self.id = id
+
