@@ -93,7 +93,7 @@ class Rectangle(Base):
         """method to return the Rectangle"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.__x, self.__y, self.__width, self.__height)
 
-    def update(self, *args, **kwargs):
+    def update(self, *args):
         if len(args) != 0:
             if len(args) == 1:
                 self.id = args[0]
@@ -105,8 +105,3 @@ class Rectangle(Base):
                 self.x = args[3]
             if len(args) == 5:
                 self.y = args[4]
-
-        if len(kwargs) != 0:
-            if len(kwargs) == 1:
-                self.id = id
-
