@@ -30,6 +30,8 @@ class Square(Rectangle):
         if size <= 0:
             raise ValueError("size must be > 0")
         self.__width = size
+        self.__height = size
+        self.__size = size
 
     def update(self, *args, **kwargs):
         """kwargs and args update method"""
