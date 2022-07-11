@@ -117,3 +117,13 @@ class Rectangle(Base):
                 self.x = e
             if z == 'y':
                 self.y = e
+
+    def to_dictionary(self):
+        """returns dict representation of class Rectangle"""
+        return {
+            "x": self.x,
+            "y": self.y,
+            "id": self.id,
+            "height": self.height,
+            "width": self.width
+        }
