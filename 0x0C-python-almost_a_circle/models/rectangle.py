@@ -119,7 +119,7 @@ class Rectangle(Base):
                 self.y = e
 
     def to_dictionary(self):
-        """returns dict representation of class Rectangle"""
+        """returns dictionary representation of class Rectangle"""
         return {
             "x": self.x,
             "y": self.y,
