@@ -28,4 +28,6 @@ Python programming🐍🙂🐍😎
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x0C-python-almost_a_circle">0x0C-python-almost_a_circle</a>
 
+<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x0D-SQL_introduction">0x0D-SQL_introduction</a>
+
 <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
