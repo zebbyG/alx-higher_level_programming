@@ -32,4 +32,6 @@ Python programming🐍🙂🐍😎
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x0E-SQL_more_queries">0x0E-SQL_more_queries</a>
 
+<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x12-javascript-warm_up">0x12-javascript-warm_up</a>
+
 <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
