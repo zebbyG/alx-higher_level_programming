@@ -34,4 +34,6 @@ Python programming🐍🙂🐍😎
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x12-javascript-warm_up">0x12-javascript-warm_up</a>
 
+<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures">0x13-javascript_objects_scopes_closures</a>
+
 <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
