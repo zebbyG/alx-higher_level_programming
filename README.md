@@ -1,7 +1,5 @@
 #### <strong><em>alx-higher_level_programming</em></strong> :page_with_curl:
 
-Python programming🐍🙂🐍😎
-
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x00-python-hello_world">0x00-python-hello_world</a>
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x01-python-if_else_loops_functions">0x01-python-if_else_loops_functions</a>
@@ -39,5 +37,7 @@ Python programming🐍🙂🐍😎
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x0F-python-object_relational_mapping">0x0F-python-object_relational_mapping</a>
 
 <a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x10-python-network_0"> 0x10. Python - Network #0</a>
+
+<a href="https://github.com/zebbyG/alx-higher_level_programming/tree/master/0x11-python-network_1">0x11-python-network_1</a>
 
 <a href="https://github.com/zebbyG?tab=repositories">zebbyG</a>
